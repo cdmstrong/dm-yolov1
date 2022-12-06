@@ -4,7 +4,10 @@ from model import *
 from torch.utils.data import DataLoader
 from loss import *
 import numpy as np
+
 import visdom
+
+
 if __name__ == '__main__':
     epoch = 50
     batchsize = 5

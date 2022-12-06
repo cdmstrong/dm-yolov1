@@ -1,1 +1,5 @@
 yolo_helmet_train
+data
+models_pkl
+__pycache__
+logs
