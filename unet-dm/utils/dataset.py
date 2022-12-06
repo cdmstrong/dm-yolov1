@@ -50,7 +50,7 @@ def preprocess(pil_img, scale, is_mask):
                 img_ndarray = img_ndarray[np.newaxis, ...]
             # else:
             #     img_ndarray = img_ndarray.transpose((2, 0, 1))
-            #img_ndarray = img_ndarray / 255
+        img_ndarray = img_ndarray / 255
 
         return img_ndarray       
 if __name__ == "__main__":
